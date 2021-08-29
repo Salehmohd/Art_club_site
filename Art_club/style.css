@@ -1,0 +1,291 @@
+
+/* Global  value */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+
+scroll-behavior: smooth;
+
+}
+
+/* We have to chose a font type  */
+/* body{} */
+
+/* End global value */
+
+
+
+
+.container{     
+
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+}
+
+.container-nav{
+display: flex;
+justify-content: space-between;
+}
+
+
+/* Header */
+
+/* body{
+
+    margin: 0;
+    /* font-family: ; */
+/* } */
+
+header{
+
+    /* text-align: center; */
+    /* background: #f0f0f0; */
+    /* background-color: rgba(255, 0, 0, 0.747); */
+    background-color: rgba(255, 255, 0, 0.774);
+    padding: 2em 0;
+    /* background:#1762d2; */
+}
+
+.logo{
+
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* Navgation */
+
+
+nav ul{
+
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 0;
+
+
+}
+
+nav li{
+
+margin-left: 2em;
+
+}
+
+
+nav a{
+
+text-decoration: none;
+/* color: #767676; */
+font-weight: 700;
+padding: .25em 0;
+/* color: #fff;  */
+color: black;
+
+
+}
+
+
+nav a:hover,
+nav a:focus{
+
+    color: #1762d2;
+
+
+}
+
+.active{
+
+
+    border-bottom: 1px solid red;
+
+}
+
+.active:hover{
+    color: red;
+}
+
+
+
+/* Header end*/ 
+
+
+/* Welcome section */
+
+section{
+
+    position: relative;
+}
+
+.img-cover{
+
+    background-image: url(./img/content_someone_stole_your_art_images_now_what.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    height: 500px;
+
+}
+
+
+
+.prg-num{
+    text-align: center;
+    /* transform: translate(-479px, 160px); */
+    /* transform: translate(-449px, 160px); */
+    transform: translate(-352px, 66px);
+}
+
+.prg-num h1{
+
+    color: #f0f0f0;
+    /* font-size: 50px; */
+    font-size: 100px;
+}
+
+.prg-num span{
+
+    color: #ffffff;
+    margin-left: 21px;
+    font-size: 50px;
+}
+
+/* Welcome section End  */
+
+
+
+
+
+/* Event section card  */
+.parent{
+
+    /* margin: 206px 0px 0px 190px; */
+    margin: 23px 0px 0px 461px;
+    color: #fff;
+}
+button{
+    
+    padding: 18px;
+    border: none;
+    background: blue;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.parnet2{
+    display: flex;
+    /* margin-top: 50px; */
+    margin: 18px 0px 0px 27px;
+}
+
+
+/* span{
+
+    color: #fff;
+    font-size: 30px;
+    transform: translate(71px, 174px);
+    display: block;
+} */
+
+
+h4{
+
+
+       margin: 2px 5px 5px 5px;
+
+}
+
+
+.prg{
+
+transform: translate(-68px, 21px);
+
+
+} 
+
+/* Event section card End  */
+
+
+
+/* Contact us  */
+
+
+/* Contact us  End */
+
+
+
+/* Footer  */
+
+footer{
+
+background-color: rgba(255, 255, 0, 0.774);
+text-align: center;
+position: absolute;
+margin: 0 auto;
+width: 100%;
+height: 150px;
+
+} 
+
+footer #fot-sp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+/* Footer End */
+
+
+
+/* Media queery  */
+/* Note: I will transfer it up to the doc later and the value not really  */
+
+
+@media  screen and (max-width:900px){
+    
+     body{
+
+        /* background-color: red;  */
+       } 
+
+    .container-nav{
+        flex-direction: column;
+        }
+
+
+
+        header{
+            text-align: center;
+        }
+
+        nav ul{
+
+       flex-direction: column;
+        
+        }
+
+        nav li{
+
+            margin: .5em  0;
+        }
+        
+
+
+}
+
+
+/* Media query end  */
+
